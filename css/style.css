@@ -38,6 +38,11 @@ img { max-width: 100%; height: auto; }
 .site-nav li a:hover { background: rgba(255,255,255,.12); }
 .site-nav li.active a { border-bottom-color: #ffd36b; background: rgba(255,255,255,.08); }
 
+/* <h1> is the first page title (SEO); render it exactly like the <h2> it replaced */
+h1 { font-size: 1.5em; margin: 0.83em 0; }
+h1.wsite-content-title { font-size: 1.5em; }
+h1.paragraph { font-size: inherit; font-weight: inherit; }
+
 /* Content card */
 main.container { margin: 22px auto 30px; }
 #wsite-content { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 24px 28px; overflow-wrap: anywhere; }
