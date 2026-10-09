@@ -103,6 +103,10 @@ font[size="1"] { font-size: 11px; }
 .g4-lead { font-size: 17px; max-width: 640px; margin: 0 auto 16px; }
 .g4-btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; padding: 10px 22px; border-radius: 6px; }
 .g4-btn:hover { background: #a82e2e; color: #fff; }
+.g4-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 6px; }
+.g4-shots figure { margin: 0; text-align: center; }
+.g4-shots img { display: block; width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+.g4-shots figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
 .g4-features { columns: 2; column-gap: 28px; }
 .g4-features li { break-inside: avoid; }
 .g4-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 12px 0; }
@@ -142,5 +146,6 @@ font[size="1"] { font-size: 11px; }
   font[size="5"] { font-size: 18px; }
   .g4 h1 { font-size: 28px; }
   .g4-features { columns: 1; }
+  .g4-shots { grid-template-columns: 1fr; }
   .g4-table { font-size: 13px; }
 }
