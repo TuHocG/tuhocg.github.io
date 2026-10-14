@@ -127,7 +127,9 @@ font[size="1"] { font-size: 11px; }
 .g4-table th, .g4-table td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; }
 .g4-table th { background: #f1f4f7; }
 .g4-tree { background: #f1f4f7; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; overflow-x: auto; font-size: 14px; }
-.g4-contact { margin-top: 28px; color: #9b2fa0; font-weight: 700; }
+.g4-contact { display: flex; align-items: center; gap: 18px; }
+.g4-contact img { display: block; width: 160px; height: 160px; border: 1px solid var(--border); border-radius: 8px; padding: 6px; background: #fff; }
+.g4-contact p { margin: 0; }
 
 /* Mobile */
 @media (max-width: 760px) {
@@ -147,5 +149,6 @@ font[size="1"] { font-size: 11px; }
   .g4 h1 { font-size: 28px; }
   .g4-features { columns: 1; }
   .g4-shots { grid-template-columns: 1fr; }
+  .g4-contact { flex-direction: column; text-align: center; }
   .g4-table { font-size: 13px; }
 }
